@@ -18,3 +18,28 @@ if (parseInt(numberOne) + parseInt(numberTwo) > 10) {
 } else {
   alert("Сума менша або дорівнює 10");
 }
+
+const text = "qwerty";
+if (text.includes("JavaScript")) {
+  console.log("містить слово JavaScript");
+} else {
+  console.log("не містить слово JavaScript");
+}
+
+const userNumber = Number(prompt("Введіть число"));
+if (userNumber >= 10 && userNumber <= 20) {
+  console.log("Число входить в діапазон від 10 до 20");
+} else {
+  console.log("Число не входить в діапазон від 10 до 20");
+}
+
+const login = "123456";
+const password = "qwerty";
+const email = prompt("введіть емайл");
+const userl = prompt("введіть логін");
+const userp = prompt("введіть пароль");
+if (userl.length >= 3 && userp.length >= 6 && email.includes("@")) {
+  console.log("Перенаправлення на іншу сторінку");
+} else {
+  console.log("Помилка: неправильне заповнення");
+}
